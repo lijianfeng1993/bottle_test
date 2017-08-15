@@ -9,7 +9,7 @@ app = bottle.Bottle()
 
 @app.route('/hello')
 def hello():
-    return 'helloworld22333.------test-------test2---test3'
+    return 'helloworld'
 
 if __name__ == '__main__':
     app.run(host = DEFAULT_HOST, port = DEFAULT_PORT)
