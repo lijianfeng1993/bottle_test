@@ -9,7 +9,8 @@ app = bottle.Bottle()
 
 @app.route('/hello')
 def hello():
-    return 'helloworld11111'
+    hello = 'helloworld!\nwelcom to cicd system.'
+    return hello
 
 if __name__ == '__main__':
     app.run(host = DEFAULT_HOST, port = DEFAULT_PORT)
