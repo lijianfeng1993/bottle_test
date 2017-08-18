@@ -9,7 +9,7 @@ app = bottle.Bottle()
 
 @app.route('/hello')
 def hello():
-    hello = 'helloworld!\nwelcom to cicd system.'
+    hello = 'helloworld!'
     return hello
 
 if __name__ == '__main__':
