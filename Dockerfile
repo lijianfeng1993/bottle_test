@@ -1,4 +1,4 @@
-FROM daocloud/python
+FROM daocloud.io/python
 MAINTAINER lijianfeng
 ADD web.py /root
 ADD bottle.py /root
