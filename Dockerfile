@@ -1,4 +1,4 @@
-FROM centos:7
+FROM daocloud/python
 MAINTAINER lijianfeng
 ADD web.py /root
 ADD bottle.py /root
